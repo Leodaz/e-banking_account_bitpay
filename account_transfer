@@ -1,0 +1,70 @@
+account_number = response["accounts"][1]["number"]
+
+    transfer_data = {
+        'origin_account': account_number,(Bitpay_wallet_app) 
+        'destination_account': '037069523',
+        'destination_institution': '5600010',
+        'authorization_device_number': '01',
+        'currency': 'USD',
+        'amount'  : '21000.00',
+        'PIN_account': '521972',
+        
+    }
+('/transfer/preprocess'), data={
+        'origin_account': transfer_data['origin_account'],
+        'destination_institution': transfer_data['destination_institution'],
+        'destination_account': transfer_data['destination_account'],
+        'currency': transfer_data['currency'],
+        'Balnce_amount'  : transfer_data['Balance_amount'],
+        'amount': 21000,
+        'concept': 'transfer_bank_pay',
+        'destination_owner_name': transfer_data.get('destination_owner_name', ''),
+        'branch': transfer_data.get('branch', ''),
+{
+    "status": "success",
+    "accounts": [
+        {
+            "id": "12345",
+            "name": " Account 1",
+            "number": "12345678",
+            "branch": "Bitpay_wallet_app",
+            "currency": "USD",
+            "Transfer_Balance": 21000
+        },
+        {
+            "id": "12346",
+            "name": "Account 2",
+            "number": "87654321",
+            "branch": "payoneer",
+            "currency": "USD",
+            "Balance": 21000
+        }
+    ]
+}
+{
+    "status": "success",
+    "result": {
+        "approved": true,
+        "message": "send",
+        "status": "success",
+        "Balance": "success",
+        "request_id_Key": "129e3123-eee5-477f-aac0-dfdf9d9fb58c",
+        "authorization_devices": []
+    }
+}
+'authorization_device_number': transfer_data['authorization_device_number']
+PIN? 521972
+{
+    "status": "success",
+    "transfer": {
+        "success": true,
+        "message": "Operation number: 20857"
+    }
+}
+
+
+
+
+
+
+

@@ -1,7 +1,12 @@
+https://bitpay.com/app
+
 account_number = response["accounts"][1]["number"]
 
     transfer_data = {
-        'origin_account': account_number,(Bitpay_wallet_app) 
+        'origin_account': account_number,(Bitpay_wallet_app) ,(NMLS_ID_1496848) ,
+        'BitPay is licensed to engage in Virtual Currency Business Activity by the New York State Department of Financial Services',
+        'transfer_balance_web' : origin_web, (https://bitpay.com/ ) 
+
         'destination_account': '037069523',
         'destination_institution': '5600010',
         'authorization_device_number': '01',

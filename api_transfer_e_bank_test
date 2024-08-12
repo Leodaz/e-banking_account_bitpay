@@ -56,7 +56,8 @@ transfer= json.transfer(petition.content)
 { {
   "status": "success",
   "key_send": "163d06b2-3378-4383-9868-71c2b6fb28da"
-}
+} 
+ { 
     "status": "success",
     "result": {
         "approved": true,

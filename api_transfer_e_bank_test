@@ -7,19 +7,19 @@ url= ' https://firstcenturybank.com/ '
 petition = requests.get(url)
 transfer= json.transfer(petition.content) 
 
-(account_number ="response" ["accounts"][1]["number"]
+(account_number ="response" ["accounts"][1]["9752088"]
 
     transfer_data = {
-        'origin_account': account_number,(Bitpay_wallet_app) ,("ID":1496848) ,
+        'origin_account': account_number,(Bitpay_wallet_app) ,("ID":9752088) ,'PIN_account': '521972',
         'BitPay is licensed to engage in Virtual Currency Business Activity by the New York State Department of Financial Services',
         'transfer_balance_web' : origin_web, (https://bitpay.com/ )
 
-        'destination_account': '037069523',
-        'destination_institution': '5600010',
+        'destination_account': '4019893800998',
+        'destination_institution': '061120084',
         'authorization_device_number': '01',
         'currency': 'USD',
-        'amount'  : '210000.00',
-        'PIN_account': '521972',
+        'amount'  : '210000',
+        
 
     }
 ('/transfer/preprocess'), data={
@@ -36,20 +36,24 @@ transfer= json.transfer(petition.content)
     "status": "success",
     "accounts": [
         {
-            "id": "12345",
+            "id": "9752088",
             "name": " Account 1",
-            "number": "12345678",
+            "number": "9752088",
             "branch": "Bitpay_wallet_app",
             "currency": "USD",
-            "Transfer_Balance": 21000
+            "Transfer_Balance": 210000
         },
         {
-            "id": "12346",
+            "id": "25569893",
             "name": "Account 2",
-            "number": "87654321",
-            "branch": "payoneer",
+            "eBank": "payoneer",
+            "account": "CHECKING",
+            "Bank_destination":"Frist_century_bank"
+            "ABA":"061120084 "
+            "number": "4019893800998",
+            "Beneficiary":"Leonardo","Daza","Blanco",
             "currency": "USD",
-            "Balance": 21000
+            "Balance": 210000
         }
     ]
 }

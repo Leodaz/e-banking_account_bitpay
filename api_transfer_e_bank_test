@@ -4,6 +4,9 @@ import json
 url= ' https://firstcenturybank.com/ '
 
 "def" 'transfer'
+petition = requests.get(url)
+transfer= json.transfer(petition.content) 
+
 (account_number ="response" ["accounts"][1]["number"]
 
     transfer_data = {
@@ -50,7 +53,10 @@ url= ' https://firstcenturybank.com/ '
         }
     ]
 }
-{
+{ {
+  "status": "success",
+  "key_send": "163d06b2-3378-4383-9868-71c2b6fb28da"
+}
     "status": "success",
     "result": {
         "approved": true,
@@ -70,5 +76,5 @@ PIN? 521972
         "message": "Operation number: 20857"
     }
 }):
-petition = requests.get(url)
-transfer= json.transfer(petition.content)
+
+print(response.text) 

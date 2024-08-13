@@ -1,0 +1,7 @@
+POST /accounts/withdraw
+Accept: application/json
+{
+    "withdrawal_amount": 10000.00,
+    "currency":"USD"
+}
+print(response_transfer) 

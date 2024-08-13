@@ -1,0 +1,41 @@
+ pip install -r requirements.txt
+
+Body:
+
+    account_number <required><string>: User bank account number
+
+    pin <required><int>: Account pin
+
+    first_name <required><string>
+
+    last_name <required><string>
+
+    opening_balance <required><int>: Opening balance for account
+
+    account_currency <required><int>: currency
+
+    account_balance <required><int>:balance
+
+print (data_account) 
+Vary: Accept
+Content-Type: application/json
+{
+    "message": "Account was created."
+} 
+
+
+POST /accounts/create
+Accept: application/json
+{
+    "account_number": "1234567890",
+    "pin": "527202",
+    "first_name": "Leonardo",
+    "last_name": "Daza","Blanco",
+    "opening_balance": 100000000.00,
+    "currency":"USD",
+    "balance": 100000000.00
+} 
+
+
+
+f.close() 

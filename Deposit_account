@@ -1,0 +1,12 @@
+POST /accounts/deposit
+Accept: application/json
+{
+    "deposit_amount": 100.000.000.00
+}
+Vary: Accept
+Content-Type: application/json
+{
+    "message": "Deposited 1100000000.00 successfully.",
+    "new_balance": 1.100.000.000.00
+}
+print("new_balance") 

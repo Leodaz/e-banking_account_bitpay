@@ -1,7 +1,16 @@
+for json ,Import json
 POST /accounts/withdraw
 Accept: application/json
 {
     "withdrawal_amount": 10000.00,
     "currency":"USD"
 }
-print(response_transfer) 
+print(response_withdrawal_transfer) 
+Vary: Accept
+Content-Type: application/json
+{
+    "message": "Withdrew 10000 successfully.",
+    "new_balance": 90000
+
+
+}

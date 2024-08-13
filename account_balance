@@ -1,0 +1,8 @@
+GET /accounts/balance
+Accept: application/json
+Vary: Accept
+Content-Type: application/json
+{
+    "balance": 100000000.00,
+    "account_number": "1234567890"
+}

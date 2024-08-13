@@ -1,4 +1,8 @@
 for json ,Import json
+Body:
+
+    withdrawal_amount <required><int>: Amount to withdraw from account
+
 POST /accounts/withdraw
 Accept: application/json
 {

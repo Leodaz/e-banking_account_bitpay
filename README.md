@@ -1,8 +1,11 @@
 # e-banking_account_bitpay
 e_account
 usar la api 
-https://api.payoneer.com/v4/accounts/{account_id}/balances/{balance_id}/payments/withdraw
+https://api.payoneer.com/v4/accounts/{account_id}/balances/{balance_id}/payments/withdraw 
+o para venezuela 
 
+
+https://apimbu.mercantilbanco.com/mercantil-banco/prod/v1/payment
 Request
 import http.client
 
